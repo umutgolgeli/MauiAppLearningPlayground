@@ -19,13 +19,12 @@ namespace MauiAppLearningPlayground
                 Debug.WriteLine(customer.Address?.Country);
             }
 
-            //Bang Operator
+           /* //Bang Operator
             if (!string.IsNullOrEmpty(customer.Name))
             {
-                Debug.WriteLine(customer.Address!.Country!);
-            }
+                Debug.WriteLine(customer.Address.Country);
+            }*/
         }
-
 
         public class Customer
         {
