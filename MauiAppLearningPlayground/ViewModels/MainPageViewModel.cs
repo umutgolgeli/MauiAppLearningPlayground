@@ -4,11 +4,11 @@ namespace MauiAppLearningPlayground.ViewModels
 {
     public class MainPageViewModel
     {
-        public Customer Customer { get; }
+        public CustomerModel Customer { get; }
 
         public MainPageViewModel()
         {
-            Customer = new Customer
+            Customer = new CustomerModel
             {
                 Name = "Umut",
                 Address = null
@@ -20,7 +20,7 @@ namespace MauiAppLearningPlayground.ViewModels
             }
         }
 
-        public class Customer
+        public class CustomerModel
         {
             public string Name { get; set; }
             public Address? Address { get; set; }
