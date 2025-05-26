@@ -17,4 +17,8 @@
     ContentTemplate="{DataTemplate local:EncapsulationSample}"
     Route="EncapsulationSample" />
 
+    <ShellContent
+        Title="Settings"
+        ContentTemplate="{DataTemplate local:SettingsPage}"
+        Route="SettingsPage" />
 </Shell>
